@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T07:32:13.578Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Q2S4KexcuZQFjD6IQqAd" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T07:35:55.454Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="WnoEk4Sz7C6tUpzJ8NKC" version="14.2.9" type="github">
   <diagram id="6N76P5hnXm77WZm34aZ_" name="Page-1">
-    <mxGraphModel dx="946" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4246" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,6 +77,24 @@
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-46" value="批量写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="440" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-47" target="etPLG4wvCZrp4LevAsaF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-47" value="mi-task&lt;br&gt;eureka" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-49" target="etPLG4wvCZrp4LevAsaF-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-49" value="线上机器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-51" value="inet获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="140" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-52" value="discovery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="510" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
