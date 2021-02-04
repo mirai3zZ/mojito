@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T07:35:55.454Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="WnoEk4Sz7C6tUpzJ8NKC" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T07:44:11.642Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="jytIzl2DlfPXARC_CfyF" version="14.2.9" type="github">
   <diagram id="6N76P5hnXm77WZm34aZ_" name="Page-1">
-    <mxGraphModel dx="4246" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="etPLG4wvCZrp4LevAsaF-22" value="xjob启动，分片广播模式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="etPLG4wvCZrp4LevAsaF-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-26" target="etPLG4wvCZrp4LevAsaF-34">
+        <mxCell id="etPLG4wvCZrp4LevAsaF-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-26" target="etPLG4wvCZrp4LevAsaF-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-26" value="根据url或者fid读取解析文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -55,46 +55,46 @@
         <mxCell id="etPLG4wvCZrp4LevAsaF-31" value="根据状态查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="350" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="etPLG4wvCZrp4LevAsaF-43" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-34" target="etPLG4wvCZrp4LevAsaF-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="etPLG4wvCZrp4LevAsaF-34" value="循环处理任务，增加机器ip判断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-40" value="batch_xxx_xxx" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="etPLG4wvCZrp4LevAsaF-42" value="满足当前机器ip执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="270" width="120" height="20" as="geometry" />
+          <mxGeometry x="753" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-44" target="etPLG4wvCZrp4LevAsaF-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-44" value="分业务逻辑处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="753" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-46" value="批量写入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="440" width="60" height="20" as="geometry" />
+          <mxGeometry x="760" y="350" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-47" target="etPLG4wvCZrp4LevAsaF-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-47" value="mi-task&lt;br&gt;eureka" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="490" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="etPLG4wvCZrp4LevAsaF-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-49" target="etPLG4wvCZrp4LevAsaF-34">
+        <mxCell id="etPLG4wvCZrp4LevAsaF-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-49" target="etPLG4wvCZrp4LevAsaF-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-49" value="线上机器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="550" y="40" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-51" value="inet获取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="140" width="60" height="20" as="geometry" />
+          <mxGeometry x="550" y="130" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="etPLG4wvCZrp4LevAsaF-52" value="discovery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="25" y="510" width="70" height="20" as="geometry" />
+          <mxGeometry x="210" y="460" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="753" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="etPLG4wvCZrp4LevAsaF-53" target="etPLG4wvCZrp4LevAsaF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="etPLG4wvCZrp4LevAsaF-53" value="ip满足" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="185" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
