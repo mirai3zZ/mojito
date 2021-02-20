@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T03:06:31.815Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ZpBZ51Bnm5pJi0LXiO0E" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T03:13:43.194Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="C-KjI73Y8PeKcJh-ESZI" version="14.2.9" type="github">
   <diagram id="bskKvsHge31UiA6hYzuj" name="Page-1">
     <mxGraphModel dx="4633" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -64,8 +64,8 @@
             <mxPoint x="1664" y="396.6700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gw_4AoOqEpiKTLtsriPl-24" value="insertBatchOperateUpload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1197.5" y="370" width="160" height="20" as="geometry" />
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-24" value="insertBatchOperateUpload，status=0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="370" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gw_4AoOqEpiKTLtsriPl-29" value="boss前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="50" width="165" height="30" as="geometry" />
@@ -87,6 +87,36 @@
         </mxCell>
         <mxCell id="gw_4AoOqEpiKTLtsriPl-37" value="rpc调用，逐个上传&amp;nbsp;save2Storage(）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="200" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-38" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="50" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1817.5" y="80" width="10" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1439" y="480" as="sourcePoint" />
+            <mxPoint x="1816" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-41" value="key：数据库主键id+字符串" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="450" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-42" value="producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="50" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2157.5" y="80" width="10" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-44" value="" style="endArrow=classic;html=1;entryX=-0.15;entryY=0.601;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="gw_4AoOqEpiKTLtsriPl-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1830" y="520" as="sourcePoint" />
+            <mxPoint x="1590" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gw_4AoOqEpiKTLtsriPl-45" value="push，batch_operate_upload主键id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="500" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
