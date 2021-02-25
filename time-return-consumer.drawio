@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T08:09:28.191Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="qe22o5C9CGOa-Hrw_OTb" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T06:22:10.514Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="8IwRaZMoh6I8RdC1IcfQ" version="14.2.9" type="github">
   <diagram id="msL8atNdUj78Eh7szCxi" name="Page-1">
-    <mxGraphModel dx="3830" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4582" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,23 +67,56 @@
             <mxPoint x="770" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-18" value="更新状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="210" width="60" height="20" as="geometry" />
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-18" value="更新子表状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="210" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="aGv1zHv1DxiRB9Cw7F4o-19" value="rpc，invoke" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="50" width="280" height="30" as="geometry" />
+          <mxGeometry x="1370" y="50" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aGv1zHv1DxiRB9Cw7F4o-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1625" y="80" width="10" height="730" as="geometry" />
+          <mxGeometry x="1505" y="80" width="10" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.334;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.334;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aGv1zHv1DxiRB9Cw7F4o-14" target="aGv1zHv1DxiRB9Cw7F4o-20">
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-21" value="" style="endArrow=classic;html=1;exitX=1.1;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.334;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aGv1zHv1DxiRB9Cw7F4o-6" target="aGv1zHv1DxiRB9Cw7F4o-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1160" y="490" as="sourcePoint" />
             <mxPoint x="1210" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-22" value="幂等调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="304" width="60" height="20" as="geometry" />
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-22" value="幂等调用，失败重试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="304" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-25" value="updateOperateStatusToEndHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1802.5" y="50" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1897.5" y="80" width="10" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-27" value="batch_operate_upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="50" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2277.5" y="80" width="10" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aGv1zHv1DxiRB9Cw7F4o-6" target="aGv1zHv1DxiRB9Cw7F4o-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="440" as="sourcePoint" />
+            <mxPoint x="920" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-30" value="" style="endArrow=classic;html=1;entryX=-0.05;entryY=0.437;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aGv1zHv1DxiRB9Cw7F4o-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1910" y="400" as="sourcePoint" />
+            <mxPoint x="2010" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-31" value="监听子表处理完成数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="350" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-32" value="判断是否和解析后数据数量相等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="380" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aGv1zHv1DxiRB9Cw7F4o-33" value="updateOperateStatus()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="400" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
