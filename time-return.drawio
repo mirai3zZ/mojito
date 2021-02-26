@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T06:10:32.693Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="HunlvPOU0RgPwiwqsGrQ" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-26T07:10:30.019Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="oZG0Zmaj_yAIt682O6GW" version="14.2.9" type="github">
   <diagram id="SzrN_A2-p0zhfCpZQCAm" name="Page-1">
-    <mxGraphModel dx="4916" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4916" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,21 @@
         </mxCell>
         <mxCell id="0GQ6qkIZAZCKvylmNYfi-16" value="根据type分配topic，发送消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1175" y="310" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0GQ6qkIZAZCKvylmNYfi-17" value="batch_operate_message_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0GQ6qkIZAZCKvylmNYfi-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2425" y="80" width="10" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="0GQ6qkIZAZCKvylmNYfi-19" value="" style="endArrow=classic;html=1;exitX=1.2;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zBDOj5Wmzki5_jdscD6F-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="440" as="sourcePoint" />
+            <mxPoint x="2420" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0GQ6qkIZAZCKvylmNYfi-20" value="记录消息topic，与operate_type关联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="360" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
