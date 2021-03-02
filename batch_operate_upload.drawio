@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T02:59:38.360Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="AnvvDYi_-_Eszu2o6qeD" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T03:03:40.802Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="L6BfEi4OEvt9rKojplCB" version="14.2.9" type="github">
   <diagram id="qoWiwMtUUDoG-ershA9c" name="Page-1">
     <mxGraphModel dx="1299" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
             <mxPoint x="1505" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OIphQyb20RP0rthybxOa-10" value="batch_operate_message_info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="OIphQyb20RP0rthybxOa-10" value="batch_operate_configuration" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="450" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIphQyb20RP0rthybxOa-12" value="type=&amp;gt;topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
